@@ -10,16 +10,17 @@ readme = "README.md"
 authors = [
   { name="Chris Bates", email="1314008+chrsbats@users.noreply.github.com" },
 ]
-license = "MIT"
+license = { file = "LICENSE" }
 requires-python = ">=3.8"
 dependencies = [
-    "PyYAML>=6.0.2"
+    "PyYAML>=6.0.2",
     "yamlcore>=0.0.4"
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
     "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
 ]
 
 [project.optional-dependencies]

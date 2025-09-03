@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "safer-yaml"
+version = "0.1"
+description = "Yaml 1.2 support for Python with a nicer api"
+readme = "README.md"
+authors = [
+  { name="Chris Bates", email="1314008+chrsbats@users.noreply.github.com" },
+]
+license = "MIT"
+requires-python = ">=3.8"
+dependencies = [
+    "PyYAML>=6.0.2"
+    "yamlcore>=0.0.4"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=5.0.0",
+    "pytest-benchmark>=4.0.0",
+    "flake8>=7.0.0"
+]
+
+# These URLs will show up on the PyPI project page.
+[project.urls]
+"Homepage" = "https://github.com/chrsbats/safer-yaml"
+"Bug Tracker" = "https://github.com/chrsbats/safer-yaml/issues"

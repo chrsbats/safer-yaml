@@ -66,7 +66,6 @@ Control formatting (width and indent)
 
 ```python
 from safer_yaml import dumps
-from safer_yaml.safer_yaml import DEFAULT_WIDTH, DEFAULT_INDENT
 
 # Use defaults (no wrapping, indent=4)
 print(dumps({"k": ["a", "b", "c"]}))

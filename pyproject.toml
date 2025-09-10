@@ -4,14 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "safer-yaml"
-version = "0.1"
+version = "0.1.1"
 description = "Yaml 1.2 support for Python with a nicer api"
 readme = "README.md"
 authors = [
   { name="Chris Bates", email="1314008+chrsbats@users.noreply.github.com" },
 ]
-license = { file = "LICENSE" }
-requires-python = ">=3.8"
+license = "MIT"
+requires-python = ">=3.9"
 dependencies = [
     "PyYAML>=6.0.2",
     "yamlcore>=0.0.4"
@@ -19,8 +19,16 @@ dependencies = [
 classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
-    "Operating System :: OS Independent",
-    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Intended Audience :: Developers",
+    "Topic :: Utilities",
+    "Topic :: Text Processing :: Markup",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Operating System :: OS Independent"
 ]
 
 [project.optional-dependencies]

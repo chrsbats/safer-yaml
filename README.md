@@ -1,5 +1,11 @@
 # safer-yaml
 
+[![PyPI](https://img.shields.io/pypi/v/safer-yaml.svg)](https://pypi.org/project/safer-yaml/)
+[![Python](https://img.shields.io/pypi/pyversions/safer-yaml.svg)](https://pypi.org/project/safer-yaml/)
+[![Build](https://github.com/chrsbats/safer-yaml/workflows/ci.yml/badge.svg)](https://github.com/chrsbats/safer-yaml/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)](https://github.com/chrsbats/safer-yaml/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A tiny wrapper around PyYAML and yamlcore that provides a consistent, JSON-like API for YAML 1.2.
 
 Why
@@ -125,7 +131,7 @@ Behavior and notes
 
 Compatibility
 
-- Python: 3.8+
+- Python: 3.9+
 - Platforms: cross-platform (Windows, macOS, Linux)
 
 License
